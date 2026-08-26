@@ -1,0 +1,5 @@
+banana,4
+apple,3
+mango,7
+dates,9
+bubbles,81
