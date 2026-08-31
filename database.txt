@@ -1,0 +1,13 @@
+type=Book|title=Dune|author=Frank Herbert|isbn=9780441013593|status=CHECKED_OUT
+type=Book|title=1984|author=George Orwell|isbn=9780451524935|status=CHECKED_OUT
+type=Book|title=The Hobbit|author=J.R.R. Tolkien|isbn=9780547928227|status=AVAILABLE
+type=Book|title=Foundation|author=Isaac Asimov|isbn=9780553293357|status=LOST
+type=DVD|title=Inception|director=Christopher Nolan|status=CHECKED_OUT
+type=DVD|title=The Matrix|director=Lana Wachowski|status=AVAILABLE
+type=DVD|title=Interstellar|director=Christopher Nolan|status=AVAILABLE
+type=DVD|title=Pulp Fiction|director=Quentin Tarantino|status=LOST
+type=Magazine|title=National Geographic|issue=2026-08|status=AVAILABLE
+type=Magazine|title=Time Magazine|issue=2026-07|status=CHECKED_OUT
+type=Magazine|title=Wired|issue=2026-09|status=AVAILABLE
+type=Magazine|title=The Economist|issue=2026-08-15|status=AVAILABLE
+type=Book|title=Neuromancer2|author=William Gibson|isbn=9780441013593|status=AVAILABLE
