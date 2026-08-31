@@ -298,11 +298,11 @@ if __name__ == "__main__":
 
     lib = Library()
 
-    new_book = Book("Neuromancer2", author="William Gibson", isbn="9780441013593")
+    new_book = Book("Neuromancer3", author="William Gibson", isbn="9780441013593")
     lib.add_item(new_book)
     print("Added:", new_book)
 
-    found = lib.find_by_title("neuromancer2")
+    found = lib.find_by_title("neuromancer3")
     print("Found:", found)
 
     available = lib.list_available()
@@ -310,7 +310,7 @@ if __name__ == "__main__":
 
     lib.save()
     lib2 = Library()
-    found2 = lib2.find_by_title("Neuromancer2")
+    found2 = lib2.find_by_title("Neuromancer3")
     print("Reloaded status:", found2.get_state().name if found2 else "Not found")
 
     print("ISBN valid (9780441013593):", LibraryItem.check_isbn("9780441013593"))
