@@ -37,6 +37,8 @@ class LibraryItem(ABC):
 
     @staticmethod
     def check_isbn(isbn: str) -> bool:
+        if not all(i.isdigit() or i in "- " for i in isbn):
+            return False
         num_in_isbn = "".join(i for i in isbn if i.isdigit())
         if len(num_in_isbn) != 13:
             return False
